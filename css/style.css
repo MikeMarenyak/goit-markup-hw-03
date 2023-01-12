@@ -22,9 +22,8 @@ img {
   display: block;
 }
 
-.container {
-  border: 1px solid blue;
-}
+/* .container {
+  border: 1px solid blue;} */
 /* Index html*/
 body {
   color: var(--primary-text-color);
@@ -181,6 +180,11 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--title-bg-color);
+  padding-bottom: 30px;
+}
+.team-img-pos {
+  display: block;
+  margin-bottom: 30px;
 }
 
 /* Workers */
@@ -190,6 +194,7 @@ ul {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 9px;
 }
 .workers-list {
   font-weight: 400;
@@ -260,6 +265,9 @@ p.title-own {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
+  margin: 0 auto;
+  border: none;
+  display: block;
 }
 /* приклади робіт */
 .examples {
@@ -306,6 +314,12 @@ button {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.working-button:not(:last-child) {
+  margin-right: 8px;
 }
 
 /* Portfolio html */
@@ -321,7 +335,12 @@ button {
   width: 370px;
   margin-right: 30px;
 }
-.workers-pos:nth-child(3n){
+.workers-text {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 0 24px 20px 24px;
+}
+.workers-pos:nth-child(3n) {
   margin-right: 0;
 }
 /* .item{
