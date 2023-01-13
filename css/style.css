@@ -69,7 +69,7 @@ body {
 }
 .page-header {
   background-color: var(--header-bg);
-  padding: 24px;
+  /* padding: 24px; */
   border-bottom: 1px solid var(--border-color);
 }
 /* Герой */
@@ -279,7 +279,6 @@ p.title-own {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
 }
 .examples-text {
   font-style: normal;
@@ -327,11 +326,11 @@ button {
 }
 
 /* Portfolio html */
-.item-list {
-  margin-top: 94px;
+.portfolio-item {
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .workers-lt {
-  margin-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -342,7 +341,7 @@ button {
 .workers-text {
   background: #ffffff;
   border: 1px solid #eeeeee;
-  padding: 0 24px 20px 24px;
+  padding: 20px 24px;
 }
 /* .workers-pos:nth-child(3n) {
   margin-right: 0;
