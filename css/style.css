@@ -8,6 +8,7 @@
   --header-bg: #ffffff;
   --text-footer: #757575;
   --border-color: #ececec;
+  --portfolio-bg:#f5f4fa;
 }
 h1,
 h2,
@@ -172,7 +173,6 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 .comand-position {
   display: flex;
@@ -209,8 +209,9 @@ ul {
   color: var(--text-footer);
 }
 .team-list {
+  padding-top: 94px;
   padding-bottom: 94px;
-  background-color: #f5f4fa;
+  background-color: var(--portfolio-bg);
 }
 /* Контакти */
 .contacts-up {
@@ -262,7 +263,7 @@ p.title-own {
 }
 /* Усі найменування */
 .working-prog {
-  background-color: #f5f4fa;
+  background-color: var(--portfolio-bg);
   color: var(--primary-text-color);
   font-family: "Roboto";
   font-weight: 500;
@@ -342,7 +343,7 @@ button {
   
 } */
 .workers-text {
-  background: #ffffff;
+  background: var(--header-bg);
   border-top: 0;
   border: 1px solid #eeeeee;
   padding: 20px 24px;
